@@ -1,0 +1,16 @@
+doctype html
+html(lang='ko')
+	head
+		meta(charset='UTF-8')
+		meta(name='viewport', content='width=device-width, inital-scale=1')
+		meta(http-equiv='X-UA-Compatible', content='IE=edge')
+		
+		title 네이버 지도 표시
+		
+		script(src='https://openapi.map.naver.com/openapi/v3/maps.js?clientId=QA2bR5q9xMwdjE9JWV02')
+		
+body
+	div#naverMap
+	
+script.
+	new naver.maps.Map('naverMap')

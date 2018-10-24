@@ -1,0 +1,17 @@
+include include/head.pug
+
+body.w3-container
+	include include/header.pug
+	
+	section
+		if !body
+			p 홈화면
+			
+		else if body == 'memo_write'
+			include bodys/write_form.pug
+			
+		else if body == 'login'
+			p 로그인화면
+			
+		else if body == 'join'
+			p 회원가입화면

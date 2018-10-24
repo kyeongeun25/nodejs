@@ -1,0 +1,15 @@
+var naver = require('../config/naver_key.js')
+
+module.exports = (app)=>{
+		
+	app.get('/naver/map',(req,res)=>{
+		res.render('index',{body:'map'})
+	})
+		
+	// 주소를 이용해서 위도 경도를 추출하는 부분
+	// naver 지도서비스에 있는 주소->좌표 변환 API를 이용해서 
+	// 주소로부터 좌표를 얻을 예정
+	app.get('/naver/map/:addr',(req,res)=>{
+		
+	})
+}

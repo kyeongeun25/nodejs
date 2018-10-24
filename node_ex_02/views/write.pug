@@ -1,0 +1,19 @@
+!DOCTYPE html
+html
+	head
+		title
+		include head.pug
+	body.container
+		h3.w3-blue-gray 글쓰기 화면
+		section
+			form(action='/memo_insert', method='POST')
+				article.w3-row
+					lable.w3-col m1 s1 l1 글쓴이
+					input.w3-col m5(type='text', name='username', id='username')
+				article.w3-row
+					lable.w3-col m1 제목
+					input.w3-col m5(type='text', name='subject', id='subject')
+				article.w3-row
+					textarea.w3-col m6(name='memo', id='memo', rows='5')
+				article
+					button.w3-button.w3-blue-gray 저장

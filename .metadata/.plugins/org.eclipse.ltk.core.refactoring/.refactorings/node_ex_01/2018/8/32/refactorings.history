@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;node_ex_01/views/join.ejs&apos; to &apos;join_form.ejs&apos;" description="Rename resource &apos;join.ejs&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="views/join.ejs" name="join_form.ejs" stamp="1533874872482" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;node_ex_01/views/add.ejs&apos; to &apos;add_view.ejs&apos;" description="Rename resource &apos;add.ejs&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="views/add.ejs" name="add_view.ejs" stamp="1533880833206" updateReferences="true"/>
+</session>

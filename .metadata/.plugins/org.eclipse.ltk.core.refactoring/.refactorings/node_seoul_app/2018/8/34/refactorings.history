@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 1 elements(s) to &apos;naver_key.js&apos;&#x0D;&#x0A;- Original project: &apos;node_seoul_app&apos;&#x0D;&#x0A;- Destination element: &apos;naver_key.js&apos;&#x0D;&#x0A;- Original element: &apos;naver_key.js&apos;" description="Copy file" element1="config/naver_key.js" files="1" flags="589830" folders="0" id="org.eclipse.wst.jsdt.ui.copy" log="config/naver_key.js&#x09;true&#x09;true&#x09;sample_naver_key.js" policy="org.eclipse.wst.jsdt.ui.copyResources" stamp="1534823846908" target="/node_seoul_app/config/naver_key.js" units="0" version="1.0"/>
+</session>

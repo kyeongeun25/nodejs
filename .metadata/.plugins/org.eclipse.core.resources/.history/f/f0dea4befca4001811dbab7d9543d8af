@@ -1,0 +1,11 @@
+module.exports = (app)=>{
+		
+	app.get('/naver/map',(req,res)=>{
+		res.render('index',{body:'map'})
+	})
+		
+	// 주소를 이용해서 위도 경도를 추출하는 부분
+	app.get('/naver/map/:addr',(req,res)=>{
+		
+	})
+}

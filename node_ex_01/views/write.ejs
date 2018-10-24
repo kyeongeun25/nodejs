@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <% include include/head.html %>
+    
+  </head>
+  <body class='container'>
+  	<% include include/header.html %>
+    <h3 class='w3-blue-gray'>글쓰기 화면</h3>
+    <section>
+      <form action='/memo_insert' method='POST'>
+    	<article class='w3-row'>
+    		<lable class='w3-col m1 s1 l1'>글쓴이</lable>
+    		<input class='w3-col m5' type='text' name='username' id='username'>
+    	</article>
+    	<article class='w3-row'>
+    		<lable class='w3-col m1'>제목</lable>
+    		<input class='w3-col m5' type='text' name='subject' id='subject'>
+    	</article>
+    	<article class='w3-row'>
+    		<textarea class='w3-col m6' name='memo' id='memo' rows='5'></textarea>
+    	</article>
+    	<article>
+    		<button class='w3-button w3-blue-gray' >저장</button>
+       	</article>
+       </form>
+    </section>
+  </body>
+</html>

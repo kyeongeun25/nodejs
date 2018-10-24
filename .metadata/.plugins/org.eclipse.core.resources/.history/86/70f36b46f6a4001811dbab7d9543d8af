@@ -1,0 +1,6 @@
+module.export = {
+		
+	Client_Id : 'QA2bR5q9xMwdjE9JWV02'
+	Client_Secret : 'AJLNTkO9_B'
+		
+}

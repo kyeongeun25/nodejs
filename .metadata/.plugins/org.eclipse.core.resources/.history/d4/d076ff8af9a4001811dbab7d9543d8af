@@ -1,0 +1,7 @@
+module.exports = (app)=>{
+		
+	app.get('naver/map',(req,res)=>{
+		res.render('naver_map')
+	})
+		
+}

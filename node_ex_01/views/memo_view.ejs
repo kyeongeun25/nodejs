@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+ <% include include/head.html %>
+</head>
+<body class='container'>
+<% include include/header.html %>
+<section>
+	<h3>메모내용</h3>
+	<p>글쓴이: <%- memobody.username %>
+	<p>제목: <%- memobody.subject %>
+	<p>메모: <%- memobody.memo %>
+</section>
+</body>
+</html>
